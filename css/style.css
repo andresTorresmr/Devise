@@ -1,0 +1,1176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+.devise{
+    content: url(../icons/SVG/Devise.svg);
+    width: 20em;
+}
+	/* Centered texts in each section
+	* --------------------------------------- */
+	/*.section{
+		 text-align:center; 
+	}*/
+
+
+	/* Backgrounds will cover all the section
+	 --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(../imgs/devise.png);
+		background-position: center;
+	}
+
+	#section0 span{
+		
+		font-size: 5em;
+		font-family: 'Poppins', sans-serif;
+		color: #222222;
+		margin-left: 100px;
+		margin-bottom: 20px;
+		padding:0;
+		top: 50%;
+		display: block;
+		position: relative;
+
+	}
+/* ------------------------------------ 
+	SECTION 2
+------------------------------------ */
+
+	#section2{
+		z-index: -2;
+		background-image: url(../icons/PNG/Fondo\ pantalla\ 5.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-size: 50px;
+		overflow: hidden;
+	}
+	.yellow{
+		color: #E6CC45;
+		
+	}
+	.white{
+		color: #DFDFDF;
+	}
+	#section2 span{
+		position: absolute;
+		width: 600px;
+		margin-top: 30px;
+		margin-left: 50px;
+		
+	}
+	.login{
+		position: absolute;
+		width: 300px;
+		left: 40%;
+		top: 20%;
+		content: url(../imgs/DeviseLogin.png);
+
+	}
+	.section2-text2{
+		text-align: right;
+		top: 30%;
+		left: 63%;
+		margin-right: 50px;
+	}
+	.section2-text3{
+		top: 70%;
+	}
+	.arrow{
+		opacity: 40%;
+		z-index: -1;
+		width: 300px;
+		left: 85%;
+		display: block;
+		position: absolute;
+		top: 23%;
+	}
+	/* ------------------------------------ 
+	SECTION 3
+------------------------------------ */
+	#section3{
+		/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+		background-position: center; */
+		background-color: #DFDFDF;
+		/* background-color: #1A1A1A; */
+		padding: 6% 0 0 0;
+	}
+	#section3 p{
+		color: #222222;
+		font-size: 30px;
+	}
+	/* ------------------------------------ 
+	first step
+------------------------------------ */
+	.first_step{
+		margin-top: 50px;
+		display: flex;
+		width: 50%;
+	}
+	.first_step p{
+		width: 600px;
+		height	: 100px;
+	}
+	.step1{
+		content: url(../icons/PNG/Punto\ 1.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		max-height: 150px;
+
+	}
+	.phonelogin{
+		content: url(../imgs/DeviseLogin.png);
+		width: 200px;
+		margin-left: -400px;
+		margin-top: 200px;
+	}
+	.register1{
+		position: absolute;
+		margin-top: 280px;
+		margin-left: 200px;
+		background-color: #E6CC45;
+		border-radius: 20px;
+		width: 300px;
+		padding: 1%;
+		text-align: center;
+	}
+	
+	/* ------------------------------------ 
+	second step
+------------------------------------ */
+	.second_step{
+		margin-top: -610px;
+		margin-left: 50%;
+		display: flex;
+		width: 50%;
+	}
+	.second_step p{
+		width: 600px;
+		
+	}
+	.step2{
+		content: url(../icons/PNG/Punto\ 2.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		width: 100px;
+		max-height: 150px;
+	}
+	.want{
+		content: url(../imgs/quiero-tengo.png);
+		width: 200px;
+		margin-left: -400px;
+		margin-top: 200px;
+	}
+
+/* ------------------------------------ 
+	SECTION 4
+------------------------------------ */
+#section4{
+	/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+	background-position: center; */
+	background-color: #DFDFDF;
+	/* background-color: #1A1A1A; */
+	padding: 6% 0 0 0;
+}
+#section4 p{
+	color: #222222;
+	font-size: 30px;
+}
+	/* ------------------------------------ 
+	third step
+------------------------------------ */
+.third_step{
+	/* background-color: blue; */
+	margin-top: 50px;
+	display: flex;
+	width: 50%;
+}
+.third_step p{
+	width: 600px;
+	height	: 100px;
+}
+.step3{
+	content: url(../icons/PNG/Punto\ 3.png);
+	position: relative;
+	top: 10px;
+	left: -10px;
+	width: 100px;
+	max-height: 150px;
+
+}
+.users{
+	content: url(../icons/PNG/3.\ Usuarios.png);
+	background-color: #222222;
+	padding: 20px;
+	border-radius: 20px;
+	width: 400px;
+	margin-left: -500px;
+	margin-top: 250px;
+}
+	/* ------------------------------------ 
+	fourth step
+------------------------------------ */
+.fourth_step{
+	/* background-color: #E6CC45; */
+	margin-top: -538px;
+	margin-left: 50%;
+	display: flex;
+	width: 50%;
+}
+.fourth_step p{
+	width: 600px;
+	
+}
+.step4{
+	content: url(../icons/PNG/Punto\ 4.png);
+	position: relative;
+	top: 10px;
+	left: -10px;
+	width: 100px;
+	width: 100px;
+	max-height: 150px;
+}
+.chat{
+	content: url(../imgs/chat.png);
+	width: 200px;
+	margin-top: 200px;
+	margin-left: -350px;
+}
+
+/* ------------------------------------ 
+	SECTION 5
+------------------------------------ */
+#section5{
+	/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+	background-position: center; */
+	background-color: #DFDFDF;
+	/* background-color: #1A1A1A; */
+	padding: 6% 0 0 0;
+}
+#section5 p{
+	color: #222222;
+	font-size: 30px;
+}
+	/* ------------------------------------ 
+	fifth step
+------------------------------------ */
+.fifth_step{
+	/* background-color: blue; */
+	margin-top: -100px;
+	display: flex;
+	width: 50%;
+}
+.fifth_step p{
+	width: 600px;
+	height	: 100px;
+}
+.step5{
+	content: url(../icons/PNG/Punto\ 5.png);
+	position: relative;
+	top: 10px;
+	left: -10px;
+	width: 100px;
+	max-height: 150px;
+
+}
+.review{
+	content: url(../icons/PNG/5.\ Reseña.png);
+	background-color: #222222;
+	border-radius: 20px;
+	padding: 5px;
+	width: 400px;
+	margin-left: -500px;
+	margin-top: 250px;
+}
+	/* ------------------------------------ 
+	sixth step
+------------------------------------ */
+.sixth_step{
+	/* background-color: #E6CC45; */
+	margin-top: -440px;
+	margin-left: 50%;
+	display: block;
+	width: 50%;
+}
+.sixth_step p{
+	width: 800px;
+	
+}
+.up{
+	margin: -100px;
+	margin-left: 100px;
+}
+.step6{
+	content: url(../icons/PNG/Punto\ 6.png);
+	position: relative;
+	top: 10px;
+	left: -10px;
+	width: 100px;
+	max-height: 150px;
+}
+.maps{
+	content: url(../icons/PNG/6.\ Mapas.png);
+	width: 400px;
+	margin-top: 120px;
+	margin-left: 250px;
+}
+
+.down{
+	margin-top: 1px;
+}
+footer{
+	background-color: #222222;
+	height: 100%;
+	color: #DFDFDF;
+	text-align: center;
+}
+footer h3{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: #DFDFDF;
+	margin-left: 20px;
+}
+footer a:hover{
+	color: #E6CC45;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+	/* Section 1
+	--------------------------------------- */
+	.devise{
+		width: 10em;
+	}
+	#section0 span{
+		font-size: 2.5em;
+		margin-left: 100px;
+		margin-bottom: 0;
+		top: 5%;
+	}
+
+	/* Section 2
+	--------------------------------------- */
+	#section2{
+		font-size: 1.5em;
+		overflow-wrap: break-word;
+	}
+	.yellow{
+		color: #E6CC45;
+		
+	}
+	.white{
+		color: #DFDFDF;
+	}
+	#section2 span{
+		position: absolute;
+		width: 300px;
+		margin-left: 5%;
+	}
+	.login{
+		position: absolute;
+		width: 300px;
+		left: 40%;
+		top: 20%;
+		content: url(../imgs/DeviseLogin.png);
+		display: none;
+	}
+	.section2-text2{
+		text-align: right;
+		top: 28%;
+		left: 9%;
+	}
+	.section2-text3{
+		top: 70%;
+	}
+	.arrow{
+		width: 100px;
+		left: 75%;
+		top: 31%;
+	}
+
+	/* Section 3
+	--------------------------------------- */
+	#section3 p{
+		font-size: 1.5em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	first step
+	------------------------------------ */
+	.first_step{
+		margin-top: -20px;
+		width: 95%;
+	}
+	.first_step p{
+		width: 80%;
+	}
+	.step1{
+		content: url(../icons/PNG/Punto\ 1.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 50px;
+		max-height: 80px;
+
+	}
+	.phonelogin{
+		width: 100px;
+		margin-left: -55%;
+		display: block;
+		margin-top: 150px;
+	}
+	
+	/* ------------------------------------ 
+	second step
+	------------------------------------ */
+	.second_step{
+		margin-top: 10px;
+		margin-left: 3px;
+		width: 95%;
+		
+	}
+	.second_step p{
+		width: 80%;
+		
+	}
+	.step2{
+		content: url(../icons/PNG/Punto\ 2.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 50px;
+		max-height: 80px;
+	}
+	.want{
+		content: url(../imgs/quiero-tengo.png);
+		width: 100px;
+		margin-left: -205px;
+		margin-top: 160px;
+	}
+	/* ------------------------------------ 
+	SECTION 4
+	------------------------------------ */
+	#section4 p{
+		font-size: 1.5em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	third step
+	------------------------------------ */
+	.third_step{
+		/* background-color: blue; */
+		margin-top: -20px;
+		width: 95%;
+	}
+	.third_step p{
+		width: 80%;
+	}
+	.step3{
+		content: url(../icons/PNG/Punto\ 3.png);
+		width: 50px;
+		margin-left: 3px;
+		max-height: 80px;
+	}
+	.users{
+		width: 200px;
+		margin-left: -270px;
+		margin-top: 160px;
+	}
+		/* ------------------------------------ 
+		fourth step
+	------------------------------------ */
+	.fourth_step{
+		margin-top: 10px;
+		margin-left: 3px;
+		width: 95%;
+	}
+	.fourth_step p{
+		width: 90%;
+	}
+	.step4{
+		width: 50px;
+		max-height: 80px;
+	}
+	.chat{
+		width: 150px;
+		margin-top: 160px;
+		margin-left: -268px;
+	}
+	/* ------------------------------------ 
+	SECTION 5
+	------------------------------------ */
+	#section5 p{
+		font-size: 1.5em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	fifth step
+	------------------------------------ */
+	.fifth_step{
+		margin-top: -20px;
+		width: 95%;
+	}
+	.fifth_step p{
+		width: 80%;
+	}
+	.step5{
+		width: 50px;
+		margin-left: 3px;
+		max-height: 80px;
+	}
+	.review{
+		width: 200px;
+		margin-left: -260px;
+		margin-top: 160px;
+	}
+	/* ------------------------------------ 
+	sixth step
+	------------------------------------ */
+	.sixth_step{
+		margin-top: 10px;
+		margin-left: -3px;
+		width: 95%;
+	}
+	.sixth_step p{
+		width: 80%;
+		
+	}
+	.up{
+		margin-top: -50px;
+		margin-left: 60px;
+	}
+	.step6{
+		width: 55px;
+		margin-left: 3px;
+		min-height: 80px;
+	}
+	.maps{
+		content: url(../icons/PNG/6.\ Mapas.png);
+		width: 200px;
+		margin-top: 110px;
+		margin-left: 100px;
+		margin-bottom: -40px;
+	}
+
+	.down{
+		display: none;
+	}
+	footer{
+		background-color: #222222;
+		height: 100%;
+		color: #DFDFDF;
+		text-align: center;
+		font-size: .8em;
+	}
+	footer h3{
+		font-size: 1.5em;
+	}
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+	 	/* Section 1
+	--------------------------------------- */
+	.devise{
+		width: 15em;
+	}
+	#section0 span{
+		font-size: 4em;
+		margin-left: 300px;
+		margin-bottom: 0;
+		top: 5%;
+	}
+
+	/* Section 2
+	--------------------------------------- */
+	#section2{
+		font-size: 2em;
+		overflow-wrap: break-word;
+	}
+	.yellow{
+		color: #E6CC45;
+		
+	}
+	.white{
+		color: #DFDFDF;
+	}
+	#section2 span{
+		position: absolute;
+		width: 300px;
+		margin-left: 2%;
+	}
+	.login{
+		position: absolute;
+		width: 150px;
+		left: 40%;
+		top: 30%;
+		content: url(../imgs/DeviseLogin.png);
+		display: block;
+	}
+	.section2-text2{
+		text-align: right;
+		top: 25%;
+		left: 58%;
+	}
+	.section2-text3{
+		top: 70%;
+	}
+	.arrow{
+		width: 200px;
+		left: 80%;
+		top: 25%;
+	}
+
+	/* Section 3
+	--------------------------------------- */
+	#section3 p{
+		font-size: 2em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	first step
+	------------------------------------ */
+	.first_step{
+		margin-top: -20px;
+		width: 95%;
+	}
+	.first_step p{
+		width: 80%;
+	}
+	.step1{
+		content: url(../icons/PNG/Punto\ 1.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 50px;
+		max-height: 80px;
+
+	}
+	.phonelogin{
+		width: 150px;
+		margin-left: -45%;
+		display: block;
+		margin-top: 150px;
+	}
+	
+	/* ------------------------------------ 
+	second step
+	------------------------------------ */
+	.second_step{
+		margin-top: 10px;
+		margin-left: 3px;
+		width: 95%;
+		
+	}
+	.second_step p{
+		width: 80%;
+		
+	}
+	.step2{
+		content: url(../icons/PNG/Punto\ 2.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 50px;
+		max-height: 80px;
+	}
+	.want{
+		content: url(../imgs/quiero-tengo.png);
+		width: 150px;
+		margin-left: -350px;
+		margin-top: 180px;
+	}
+	/* ------------------------------------ 
+	SECTION 4
+	------------------------------------ */
+	#section4 p{
+		font-size: 2em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	third step
+	------------------------------------ */
+	.third_step{
+		/* background-color: blue; */
+		margin-top: -20px;
+		width: 95%;
+	}
+	.third_step p{
+		width: 80%;
+	}
+	.step3{
+		content: url(../icons/PNG/Punto\ 3.png);
+		width: 50px;
+		margin-left: 3px;
+		max-height: 80px;
+	}
+	.users{
+		width: 200px;
+		margin-left: -385px;
+		margin-top: 160px;
+	}
+		/* ------------------------------------ 
+		fourth step
+	------------------------------------ */
+	.fourth_step{
+		margin-top: 10px;
+		margin-left: 3px;
+		width: 95%;
+	}
+	.fourth_step p{
+		width: 90%;
+	}
+	.step4{
+		width: 50px;
+		max-height: 80px;
+	}
+	.chat{
+		width: 200px;
+		margin-top: 180px;
+		margin-left: -440px;
+	}
+	/* ------------------------------------ 
+	SECTION 5
+	------------------------------------ */
+	#section5 p{
+		font-size: 1.5em;
+		overflow-wrap: break-word;
+	}
+	/* ------------------------------------ 
+	fifth step
+	------------------------------------ */
+	.fifth_step{
+		margin-top: -20px;
+		width: 95%;
+	}
+	.fifth_step p{
+		width: 80%;
+	}
+	.step5{
+		width: 50px;
+		margin-left: 3px;
+		max-height: 80px;
+	}
+	.review{
+		width: 300px;
+		margin-left: -420px;
+		margin-top: 120px;
+	}
+	/* ------------------------------------ 
+	sixth step
+	------------------------------------ */
+	.sixth_step{
+		margin-top: 10px;
+		margin-left: -3px;
+		width: 95%;
+	}
+	.sixth_step p{
+		width: 80%;
+		
+	}
+	.up{
+		margin-top: -50px;
+		margin-left: 60px;
+	}
+	.step6{
+		width: 55px;
+		margin-left: 3px;
+		min-height: 80px;
+	}
+	.maps{
+		content: url(../icons/PNG/6.\ Mapas.png);
+		width: 300px;
+		margin-top: 140px;
+		margin-left: 250px;
+		margin-bottom: 40px;
+	}
+
+	.down{
+		display: block;
+		margin-left: 60px;
+
+	}
+	footer{
+		background-color: #222222;
+		height: 100%;
+		color: #DFDFDF;
+		text-align: center;
+		font-size: .8em;
+	}
+	footer h3{
+		font-size: 1.5em;
+	}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+	 
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+	.devise{
+		content: url(../icons/SVG/Devise.svg);
+		width: 20em;
+	}
+		/* Centered texts in each section
+		* --------------------------------------- */
+		/*.section{
+			 text-align:center; 
+		}*/
+	
+	
+		/* Backgrounds will cover all the section
+		 --------------------------------------- */
+		.section{
+			background-size: cover;
+		}
+	
+		/* Defining each section background and styles
+		* --------------------------------------- */
+		#section0{
+			background-image: url(../imgs/devise.png);
+			background-position: center;
+		}
+	
+		#section0 span{
+			
+			font-size: 5em;
+			font-family: 'Poppins', sans-serif;
+			color: #222222;
+			margin-left: 100px;
+			margin-bottom: 20px;
+			padding:0;
+			top: 50%;
+			display: block;
+			position: relative;
+	
+		}
+	/* ------------------------------------ 
+		SECTION 2
+	------------------------------------ */
+	
+		#section2{
+			z-index: -2;
+			background-image: url(../icons/PNG/Fondo\ pantalla\ 5.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-size: 50px;
+			overflow: hidden;
+		}
+		.yellow{
+			color: #E6CC45;
+			
+		}
+		.white{
+			color: #DFDFDF;
+		}
+		#section2 span{
+			position: absolute;
+			width: 600px;
+			margin-top: 30px;
+			margin-left: 50px;
+			
+		}
+		.login{
+			position: absolute;
+			width: 300px;
+			left: 40%;
+			top: 20%;
+			content: url(../imgs/DeviseLogin.png);
+			display: block;
+		}
+		.section2-text2{
+			text-align: right;
+			top: 30%;
+			left: 63%;
+			margin-right: 50px;
+		}
+		.section2-text3{
+			top: 70%;
+		}
+		.arrow{
+			opacity: 40%;
+			z-index: -1;
+			width: 300px;
+			left: 85%;
+			display: block;
+			position: absolute;
+			top: 23%;
+		}
+		/* ------------------------------------ 
+		SECTION 3
+	------------------------------------ */
+		#section3{
+			/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+			background-position: center; */
+			background-color: #DFDFDF;
+			/* background-color: #1A1A1A; */
+			padding: 6% 0 0 0;
+		}
+		#section3 p{
+			color: #222222;
+			font-size: 30px;
+		}
+		/* ------------------------------------ 
+		first step
+	------------------------------------ */
+		.first_step{
+			margin-top: 50px;
+			display: flex;
+			width: 50%;
+		}
+		.first_step p{
+			width: 600px;
+			height	: 100px;
+		}
+		.step1{
+			content: url(../icons/PNG/Punto\ 1.png);
+			position: relative;
+			top: 10px;
+			left: -10px;
+			width: 100px;
+			max-height: 150px;
+	
+		}
+		.phonelogin{
+			content: url(../imgs/DeviseLogin.png);
+			width: 200px;
+			margin-left: -400px;
+			margin-top: 200px;
+		}
+		.register1{
+			position: absolute;
+			margin-top: 280px;
+			margin-left: 200px;
+			background-color: #E6CC45;
+			border-radius: 20px;
+			width: 300px;
+			padding: 1%;
+			text-align: center;
+		}
+		
+		/* ------------------------------------ 
+		second step
+	------------------------------------ */
+		.second_step{
+			margin-top: -610px;
+			margin-left: 50%;
+			display: flex;
+			width: 50%;
+		}
+		.second_step p{
+			width: 600px;
+			
+		}
+		.step2{
+			content: url(../icons/PNG/Punto\ 2.png);
+			position: relative;
+			top: 10px;
+			left: -10px;
+			width: 100px;
+			width: 100px;
+			max-height: 150px;
+		}
+		.want{
+			content: url(../imgs/quiero-tengo.png);
+			width: 200px;
+			margin-left: -400px;
+			margin-top: 200px;
+		}
+	
+	/* ------------------------------------ 
+		SECTION 4
+	------------------------------------ */
+	#section4{
+		/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+		background-position: center; */
+		background-color: #DFDFDF;
+		/* background-color: #1A1A1A; */
+		padding: 6% 0 0 0;
+	}
+	#section4 p{
+		color: #222222;
+		font-size: 30px;
+	}
+		/* ------------------------------------ 
+		third step
+	------------------------------------ */
+	.third_step{
+		/* background-color: blue; */
+		margin-top: 50px;
+		display: flex;
+		width: 50%;
+	}
+	.third_step p{
+		width: 600px;
+		height	: 100px;
+	}
+	.step3{
+		content: url(../icons/PNG/Punto\ 3.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		max-height: 150px;
+	
+	}
+	.users{
+		content: url(../icons/PNG/3.\ Usuarios.png);
+		background-color: #222222;
+		padding: 20px;
+		border-radius: 20px;
+		width: 400px;
+		margin-left: -500px;
+		margin-top: 250px;
+	}
+		/* ------------------------------------ 
+		fourth step
+	------------------------------------ */
+	.fourth_step{
+		/* background-color: #E6CC45; */
+		margin-top: -538px;
+		margin-left: 50%;
+		display: flex;
+		width: 50%;
+	}
+	.fourth_step p{
+		width: 600px;
+		
+	}
+	.step4{
+		content: url(../icons/PNG/Punto\ 4.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		width: 100px;
+		max-height: 150px;
+	}
+	.chat{
+		content: url(../imgs/chat.png);
+		width: 200px;
+		margin-top: 200px;
+		margin-left: -350px;
+	}
+	
+	/* ------------------------------------ 
+		SECTION 5
+	------------------------------------ */
+	#section5{
+		/* background-image: url(../icons/PNG/Fondo\ Pantalla\ 1.png); 
+		background-position: center; */
+		background-color: #DFDFDF;
+		/* background-color: #1A1A1A; */
+		padding: 6% 0 0 0;
+	}
+	#section5 p{
+		color: #222222;
+		font-size: 30px;
+	}
+		/* ------------------------------------ 
+		fifth step
+	------------------------------------ */
+	.fifth_step{
+		/* background-color: blue; */
+		margin-top: -100px;
+		display: flex;
+		width: 50%;
+	}
+	.fifth_step p{
+		width: 600px;
+		height	: 100px;
+	}
+	.step5{
+		content: url(../icons/PNG/Punto\ 5.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		max-height: 150px;
+	
+	}
+	.review{
+		content: url(../icons/PNG/5.\ Reseña.png);
+		background-color: #222222;
+		border-radius: 20px;
+		padding: 5px;
+		width: 400px;
+		margin-left: -500px;
+		margin-top: 250px;
+	}
+		/* ------------------------------------ 
+		sixth step
+	------------------------------------ */
+	.sixth_step{
+		/* background-color: #E6CC45; */
+		margin-top: -410px;
+		margin-left: 50%;
+		display: block;
+		width: 50%;
+	}
+	.sixth_step p{
+		width: 800px;
+		
+	}
+	.up{
+		margin: -110px;
+		margin-left: 100px;
+	}
+	.step6{
+		content: url(../icons/PNG/Punto\ 6.png);
+		position: relative;
+		top: 10px;
+		left: -10px;
+		width: 100px;
+		max-height: 150px;
+	}
+	.maps{
+		content: url(../icons/PNG/6.\ Mapas.png);
+		width: 400px;
+		margin-top: 120px;
+		margin-left: 250px;
+	}
+	
+	.down{
+		margin-top: 1px;
+		display: block;
+	}
+	footer{
+		background-color: #222222;
+		height: 100%;
+		color: #DFDFDF;
+		text-align: center;
+	}
+	footer h3{
+		font-size: 30px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	footer a{
+		font-size: 15px;
+		text-decoration: none;
+		color: #DFDFDF;
+		margin-left: 20px;
+	}
+	footer a:hover{
+		color: #E6CC45;
+	}
+ }
