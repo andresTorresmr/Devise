@@ -393,14 +393,14 @@ footer a:hover{
 	.section2-text2{
 		text-align: right;
 		top: 28%;
-		left: 9%;
+		left: 20%;
 	}
 	.section2-text3{
 		top: 70%;
 	}
 	.arrow{
 		width: 100px;
-		left: 75%;
+		left: 80%;
 		top: 31%;
 	}
 
@@ -460,7 +460,7 @@ footer a:hover{
 	.want{
 		content: url(../imgs/quiero-tengo.png);
 		width: 100px;
-		margin-left: -205px;
+		margin-left: -225px;
 		margin-top: 160px;
 	}
 	/* ------------------------------------ 
@@ -489,7 +489,7 @@ footer a:hover{
 	}
 	.users{
 		width: 200px;
-		margin-left: -270px;
+		margin-left: -280px;
 		margin-top: 160px;
 	}
 		/* ------------------------------------ 
@@ -510,7 +510,7 @@ footer a:hover{
 	.chat{
 		width: 150px;
 		margin-top: 160px;
-		margin-left: -268px;
+		margin-left: -280px;
 	}
 	/* ------------------------------------ 
 	SECTION 5
@@ -535,8 +535,8 @@ footer a:hover{
 		max-height: 80px;
 	}
 	.review{
-		width: 200px;
-		margin-left: -260px;
+		width: 250px;
+		margin-left: -290px;
 		margin-top: 160px;
 	}
 	/* ------------------------------------ 
@@ -563,9 +563,9 @@ footer a:hover{
 	.maps{
 		content: url(../icons/PNG/6.\ Mapas.png);
 		width: 200px;
-		margin-top: 110px;
+		margin-top: 130px;
 		margin-left: 100px;
-		margin-bottom: -40px;
+		margin-bottom: 20px;
 	}
 
 	.down{
